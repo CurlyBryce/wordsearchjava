@@ -13,7 +13,7 @@ dependencies {
     testImplementation     'junit:junit:4.13'
 }
 
-java {
+jar {
   manifest {
     attributes(
       'Main-Class': 'wordsearchjava.Main'

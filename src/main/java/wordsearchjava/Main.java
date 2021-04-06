@@ -41,7 +41,7 @@ public class Main {
   // Parse runtime options
   public static void main(String[] args) {
     if (args.length == 0) {
-      System.out.println("Usage:\nwordsearch-java <flags> [word(s) to search]\n\nDescription:\nA default wordsearch of 13x11 containing countries in lowercase is used if -s and -w are not used\n\nFlags:\n-i: invert printed array\n-s: array size \"-s 12x4\" (12x4)\n-w wordsearch string \"-w abcd\"");      return;
+      System.out.println("Usage:\nwordsearch-java <flags> [comma separated words to search]\n\nDescription:\nA default wordsearch of 13x11 containing countries in lowercase is used if -s and -w are not used\n\nFlags:\n-i: invert printed array\n-s: array size \"-s 12x4\" (12x4)\n-w wordsearch string \"-w abcd\"");      return;
     }
 
     int count = 0;
